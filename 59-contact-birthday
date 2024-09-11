@@ -1,0 +1,10 @@
+public Boolean isBirthday(Contact c) {
+    //code here
+    Boolean isBirthDate = false;
+    Date currentDay = system.Today();
+    if(currentDay.Month() == c.Birthdate.Month() &
+        currentDay.Day() == c.Birthdate.Day()){
+            isBirthDate = true;
+        }
+    return isBirthDate;
+}
